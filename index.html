@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thiệp mời tốt nghiệp · Thế Trường · 21.11.2026</title>
+<meta name="description" content="Thân mời bạn đến lễ tốt nghiệp của Thế Trường – Thứ Bảy 21.11.2026, Trường Đại học Mở TP.HCM.">
+<meta name="theme-color" content="#2e9bef">
+<meta property="og:title" content="Thiệp mời tốt nghiệp · Thế Trường">
+<meta property="og:description" content="Mình sắp sang màn mới! Rất mong bạn đến chung vui và chụp ảnh kỷ niệm cùng mình.">
+<meta property="og:image" content="images/01-cover.webp">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' shape-rendering='crispEdges'%3E%3Crect width='16' height='16' fill='%23f5a623'/%3E%3Crect x='6' y='3' width='4' height='2' fill='%23fff'/%3E%3Crect x='9' y='5' width='2' height='2' fill='%23fff'/%3E%3Crect x='7' y='7' width='2' height='2' fill='%23fff'/%3E%3Crect x='7' y='11' width='2' height='2' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Lilita+One&family=VT323&display=swap" rel="stylesheet">
+<style>
+:root{
+  --sky-top:#2e9bef; --sky-bottom:#82c5f7;
+  --navy:#0f2380; --yellow:#fbd000; --red:#e52521; --green:#43b047; --blue:#049cd8;
+  --ink:#000; --paper:#fafafa;
+  --pixel:"VT323","Courier New",monospace;
+  --display:"Lilita One","Baloo 2",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:#0b1a6b}
+body{margin:0;background:#0b1a6b;font-family:var(--pixel);color:var(--ink);-webkit-text-size-adjust:100%}
+.stage{max-width:600px;margin:0 auto;background:var(--sky-top);box-shadow:0 0 0 4px #000,0 0 60px rgba(0,0,0,.45)}
+.page{position:relative;line-height:0;scroll-margin-top:0}
+.page img{display:block;width:100%;height:auto}
+
+/* vùng bấm trên thanh menu có sẵn trong ảnh */
+.hot a{position:absolute;top:.6%;height:3.4%;display:block;border-radius:4px}
+.hot a:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+
+/* ===== Phần xác nhận tham dự ===== */
+.rsvp{position:relative;background:linear-gradient(var(--sky-top),var(--sky-bottom));padding:22px 0 0;line-height:1.2;overflow:hidden;scroll-margin-top:0}
+.rsvp-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 22px;padding:0 12px;margin:0 0 26px;font-size:clamp(15px,3.6vw,21px);letter-spacing:.08em}
+.rsvp-nav a{color:#fff;text-decoration:none;text-transform:uppercase;padding-bottom:3px;border-bottom:4px solid transparent}
+.rsvp-nav a[aria-current]{color:var(--yellow);border-color:var(--yellow)}
+.rsvp-nav a:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+
+.cloud{position:absolute;width:92px;height:29px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 5' shape-rendering='crispEdges'%3E%3Cg fill='%23fff'%3E%3Crect x='5' y='0' width='4' height='1'/%3E%3Crect x='3' y='1' width='8' height='1'/%3E%3Crect x='1' y='2' width='14' height='1'/%3E%3Crect x='0' y='3' width='16' height='1'/%3E%3C/g%3E%3Crect x='0' y='4' width='16' height='1' fill='%23bcdcf8'/%3E%3C/svg%3E") center/100% 100% no-repeat;image-rendering:pixelated;pointer-events:none}
+.cloud.c1{top:70px;left:4%}
+.cloud.c2{top:150px;right:3%;transform:scale(.7);transform-origin:right}
+
+.mario-title{margin:0 0 8px;text-align:center;font-family:var(--display);font-weight:400;font-size:clamp(46px,14vw,84px);line-height:.98;letter-spacing:.02em;padding:0 10px}
+.mario-title .row{display:block}
+.mario-title .ch{display:inline-block;-webkit-text-stroke:.14em #000;paint-order:stroke fill;text-shadow:.04em .06em 0 #000,.08em .12em 0 #000,.12em .17em 0 #000}
+.mario-title .ch.sp{width:.28em}
+.ch.k0{color:var(--red);transform:rotate(-3deg)}
+.ch.k1{color:var(--yellow);transform:rotate(2deg) translateY(-.03em)}
+.ch.k2{color:var(--green);transform:rotate(-2deg)}
+.ch.k3{color:var(--blue);transform:rotate(3deg) translateY(.02em)}
+.lead{margin:6px auto 26px;max-width:30ch;text-align:center;color:#fff;font-size:clamp(21px,5.2vw,26px);text-shadow:2px 2px 0 var(--navy)}
+.lead b{color:var(--yellow);font-weight:400}
+
+.dialog{position:relative;margin:0 16px 22px;padding:26px 18px 22px;background:var(--navy);border:4px solid #fff;box-shadow:0 0 0 4px #000,8px 10px 0 4px rgba(0,0,0,.28);color:#fff}
+.tab{position:absolute;top:-22px;left:10px;padding:2px 12px 0;background:var(--yellow);color:#3a2a00;border:4px solid #000;font-size:23px;letter-spacing:.06em;text-transform:uppercase;line-height:1.25}
+.dialog .hint{margin:0 0 4px;font-size:22px;color:#cfe0ff}
+
+.field{margin:0 0 20px;padding:0;border:0;min-width:0}
+.field > label,.field > legend{display:block;padding:0;margin:0 0 7px;font-size:25px;line-height:1.1;color:#fff}
+.field .opt{color:#9db6f3;font-size:20px}
+.input,.textarea{width:100%;display:block;font:inherit;font-size:26px;line-height:1.15;color:#111;background:var(--paper);border:4px solid #000;border-radius:0;padding:9px 12px;box-shadow:inset 4px 4px 0 rgba(15,35,128,.18)}
+.textarea{min-height:128px;resize:vertical}
+.input::placeholder,.textarea::placeholder{color:#7b8199}
+.input:focus,.textarea:focus{outline:4px solid var(--yellow);outline-offset:0}
+.count{display:block;margin-top:5px;text-align:right;font-size:19px;color:#9db6f3}
+
+.choices{display:grid;gap:10px}
+.choice{position:relative}
+.choice input{position:absolute;opacity:0;inset:0;width:100%;height:100%;margin:0;cursor:pointer}
+.choice span{display:flex;align-items:center;gap:12px;padding:10px 14px;background:var(--paper);color:#111;border:4px solid #000;font-size:25px;line-height:1.1;box-shadow:4px 4px 0 #000;transition:transform .08s,box-shadow .08s}
+.choice i{flex:none;display:grid;place-items:center;width:34px;height:34px;border:4px solid #000;font-style:normal;font-size:25px;line-height:1;color:#fff}
+.choice.yes i{background:var(--green)}
+.choice.maybe i{background:#f5a623}
+.choice.no i{background:var(--red)}
+.choice input:hover + span{transform:translate(-1px,-1px);box-shadow:5px 5px 0 #000}
+.choice input:checked + span{transform:translate(4px,4px);box-shadow:0 0 0 #000;background:#fff7c2;outline:4px solid var(--yellow);outline-offset:2px}
+.choice input:focus-visible + span{outline:4px solid var(--yellow);outline-offset:2px}
+
+.stepper{display:flex;align-items:stretch;width:max-content;max-width:100%}
+.stepper button{width:56px;font:inherit;font-size:34px;line-height:1;color:#fff;background:var(--red);border:4px solid #000;cursor:pointer;box-shadow:4px 4px 0 #000;padding:0}
+.stepper button:active{transform:translate(4px,4px);box-shadow:none}
+.stepper button:focus-visible{outline:4px solid var(--yellow);outline-offset:2px}
+.stepper output{display:grid;place-items:center;min-width:84px;margin:0 10px;padding:0 10px;background:var(--paper);color:#111;border:4px solid #000;font-size:34px}
+.stepper-note{display:block;margin-top:8px;font-size:20px;color:#9db6f3}
+
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.err{min-height:26px;margin:0 0 10px;color:#ffb3a8;font-size:23px}
+.go{display:block;width:100%;padding:12px 16px 10px;font-family:var(--display);font-size:clamp(26px,7vw,34px);letter-spacing:.04em;color:#fff;background:var(--red);border:4px solid #000;cursor:pointer;text-shadow:3px 3px 0 #000;box-shadow:0 6px 0 #7d0f0d,0 6px 0 4px #000;position:relative;top:0;transition:top .06s,box-shadow .06s}
+.go:hover{background:#f0352f}
+.go:active{top:6px;box-shadow:0 0 0 #000,0 0 0 4px #000}
+.go:focus-visible{outline:4px solid var(--yellow);outline-offset:4px}
+.go[disabled]{background:#8a8aa0;cursor:wait}
+.fine{margin:18px 0 0;text-align:center;font-size:20px;color:#9db6f3}
+
+/* trạng thái đã gửi */
+.done{display:none;text-align:center;padding:8px 0 4px}
+.dialog.sent form{display:none}
+.dialog.sent .done{display:block}
+.dialog.sent .hint{display:none}
+.coin{position:relative;width:46px;height:68px;margin:0 auto 6px;border-radius:50%;background:#f9c400;border:5px solid #b87400;box-shadow:inset 7px 0 0 #ffe27a;animation:spin 1.1s steps(8) 3}
+.coin::after{content:"";position:absolute;left:50%;top:14px;width:8px;height:30px;margin-left:-4px;background:#b87400}
+@keyframes spin{0%{transform:scaleX(1)}50%{transform:scaleX(.12)}100%{transform:scaleX(1)}}
+.up{font-family:var(--display);font-size:clamp(34px,10vw,52px);line-height:1;color:var(--green);-webkit-text-stroke:.12em #000;paint-order:stroke fill;text-shadow:.05em .08em 0 #000;margin:4px 0 14px}
+.done p{margin:0 auto 8px;max-width:28ch;font-size:26px}
+.done .demo{margin-top:12px;font-size:19px;color:#ffd36b}
+.again{margin-top:16px;font:inherit;font-size:23px;color:#fff;background:transparent;border:4px solid #fff;padding:6px 14px;cursor:pointer}
+.again:focus-visible{outline:4px solid var(--yellow);outline-offset:3px}
+.again:hover{background:rgba(255,255,255,.14)}
+
+.scene{display:block;width:100%;height:auto;margin-top:6px}
+
+/* nút nổi dẫn tới phần xác nhận */
+.fab{position:fixed;left:50%;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:20;transform:translate(-50%,140%);opacity:0;pointer-events:none;transition:transform .25s ease,opacity .25s ease;padding:9px 18px 7px;font-family:var(--display);font-size:20px;letter-spacing:.03em;color:#3a2a00;background:var(--yellow);border:4px solid #000;box-shadow:4px 4px 0 #000;text-decoration:none;white-space:nowrap}
+.fab.show{transform:translate(-50%,0);opacity:1;pointer-events:auto}
+.fab:focus-visible{outline:4px solid #fff;outline-offset:3px}
+
+@media (max-width:380px){.dialog{margin-inline:10px;padding-inline:14px}.choice span{font-size:23px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.coin{animation:none}.fab{transition:none}.choice span,.go{transition:none}}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+</style>
+</head>
+<body>
+<main class="stage">
+
+  <!-- 1. Cover -->
+  <section class="page" id="cover">
+    <img src="images/01-cover.webp" width="1429" height="2000" alt="Thiệp mời lễ tốt nghiệp của Thế Trường – chủ đề Super Mario" fetchpriority="high">
+    <nav class="hot" aria-label="Điều hướng">
+      <a href="#cover"      style="left:19.5%;width:9.5%"  aria-label="Thư mời"></a>
+      <a href="#loi-ngo"    style="left:31%;width:9.5%"    aria-label="Lời ngỏ"></a>
+      <a href="#thanh-tuu"  style="left:42.5%;width:12.5%" aria-label="Hành trình"></a>
+      <a href="#thiep-moi"  style="left:57.3%;width:9.5%"  aria-label="Sự kiện"></a>
+      <a href="#huong-dan"  style="left:68.5%;width:12%"   aria-label="Hướng dẫn"></a>
+    </nav>
+  </section>
+
+  <!-- 2. Lời ngỏ -->
+  <section class="page" id="loi-ngo">
+    <img src="images/02-loi-ngo.webp" width="1429" height="2000" alt="Lời ngỏ: lời cảm ơn gửi đến gia đình, thầy cô, bạn bè và những người thương" loading="lazy">
+    <nav class="hot" aria-label="Điều hướng">
+      <a href="#cover"      style="left:19.5%;width:9.5%"  aria-label="Thư mời"></a>
+      <a href="#loi-ngo"    style="left:31%;width:9.5%"    aria-label="Lời ngỏ"></a>
+      <a href="#thanh-tuu"  style="left:42.5%;width:12.5%" aria-label="Hành trình"></a>
+      <a href="#thiep-moi"  style="left:57.3%;width:9.5%"  aria-label="Sự kiện"></a>
+      <a href="#huong-dan"  style="left:68.5%;width:12%"   aria-label="Hướng dẫn"></a>
+    </nav>
+  </section>
+
+  <!-- 3. Thành tựu -->
+  <section class="page" id="thanh-tuu">
+    <img src="images/03-thanh-tuu.webp" width="1429" height="2000" alt="Thành tựu 4 năm đại học và bộ sưu tập ảnh kỷ niệm" loading="lazy">
+    <nav class="hot" aria-label="Điều hướng">
+      <a href="#cover"      style="left:19.5%;width:9.5%"  aria-label="Thư mời"></a>
+      <a href="#loi-ngo"    style="left:31%;width:9.5%"    aria-label="Lời ngỏ"></a>
+      <a href="#thanh-tuu"  style="left:42.5%;width:12.5%" aria-label="Hành trình"></a>
+      <a href="#thiep-moi"  style="left:57.3%;width:9.5%"  aria-label="Sự kiện"></a>
+      <a href="#huong-dan"  style="left:68.5%;width:12%"   aria-label="Hướng dẫn"></a>
+    </nav>
+  </section>
+
+  <!-- 4. Thiệp mời (thời gian & địa điểm) -->
+  <section class="page" id="thiep-moi">
+    <img src="images/04-thiep-moi.webp" width="1429" height="2000" alt="Happy Graduation – Thứ Bảy 21.11.2026, 11:00 đến 12:30, Trường Đại học Mở TP.HCM, 97 Võ Văn Tần, Phường Xuân Hòa, TP. Hồ Chí Minh" loading="lazy">
+    <nav class="hot" aria-label="Điều hướng">
+      <a href="#cover"      style="left:19.5%;width:9.5%"  aria-label="Thư mời"></a>
+      <a href="#loi-ngo"    style="left:31%;width:9.5%"    aria-label="Lời ngỏ"></a>
+      <a href="#thanh-tuu"  style="left:42.5%;width:12.5%" aria-label="Hành trình"></a>
+      <a href="#thiep-moi"  style="left:57.3%;width:9.5%"  aria-label="Sự kiện"></a>
+      <a href="#huong-dan"  style="left:68.5%;width:12%"   aria-label="Hướng dẫn"></a>
+    </nav>
+  </section>
+
+  <!-- 5. Hướng dẫn -->
+  <section class="page" id="huong-dan">
+    <img src="images/05-huong-dan.webp" width="1429" height="2000" alt="Hướng dẫn gửi xe và những lưu ý quan trọng" loading="lazy">
+    <nav class="hot" aria-label="Điều hướng">
+      <a href="#cover"      style="left:19.5%;width:9.5%"  aria-label="Thư mời"></a>
+      <a href="#loi-ngo"    style="left:31%;width:9.5%"    aria-label="Lời ngỏ"></a>
+      <a href="#thanh-tuu"  style="left:42.5%;width:12.5%" aria-label="Hành trình"></a>
+      <a href="#thiep-moi"  style="left:57.3%;width:9.5%"  aria-label="Sự kiện"></a>
+      <a href="#huong-dan"  style="left:68.5%;width:12%"   aria-label="Hướng dẫn"></a>
+    </nav>
+  </section>
+
+  <!-- 6. Cảm ơn -->
+  <section class="page" id="cam-on">
+    <img src="images/06-cam-on.webp" width="1429" height="2000" alt="Cảm ơn vì đã xuất hiện trong thanh xuân của mình, hy vọng gặp lại mọi người trong ngày đặc biệt đó" loading="lazy">
+  </section>
+
+  <!-- 7. Xác nhận tham gia & lời chúc -->
+  <section class="rsvp" id="rsvp" aria-labelledby="rsvp-title">
+    <span class="cloud c1" aria-hidden="true"></span>
+    <span class="cloud c2" aria-hidden="true"></span>
+
+    <nav class="rsvp-nav" aria-label="Điều hướng">
+      <a href="#cover">Thư mời</a>
+      <a href="#loi-ngo">Lời ngỏ</a>
+      <a href="#thanh-tuu">Hành trình</a>
+      <a href="#thiep-moi">Sự kiện</a>
+      <a href="#huong-dan">Hướng dẫn</a>
+      <a href="#rsvp" aria-current="true">Xác nhận</a>
+    </nav>
+
+    <h2 class="mario-title" id="rsvp-title" data-lines="XÁC NHẬN|THAM DỰ">Xác nhận tham dự</h2>
+    <p class="lead">Cho mình biết bạn có đến được không, và <b>gửi vài lời chúc</b> nha!</p>
+
+    <div class="dialog" id="dialog">
+      <span class="tab">Người chơi mới</span>
+      <p class="hint" id="hint">Điền xong bấm nút đỏ để gửi nha.</p>
+
+      <form id="rsvp-form" novalidate autocomplete="off">
+        <div class="field">
+          <label for="ten">Tên của bạn</label>
+          <input class="input" id="ten" name="ten" type="text" maxlength="60" placeholder="Ví dụ: Cô Lan, anh Nam..." autocomplete="name" required>
+        </div>
+
+        <fieldset class="field">
+          <legend>Bạn có đến được không?</legend>
+          <div class="choices">
+            <label class="choice yes"><input type="radio" name="tt" value="co"><span><i aria-hidden="true">✓</i>Có, mình sẽ đến</span></label>
+            <label class="choice maybe"><input type="radio" name="tt" value="chua-chac"><span><i aria-hidden="true">?</i>Mình chưa chắc, sẽ báo lại</span></label>
+            <label class="choice no"><input type="radio" name="tt" value="khong"><span><i aria-hidden="true">✕</i>Tiếc quá, mình không đến được</span></label>
+          </div>
+        </fieldset>
+
+        <div class="field" id="so-nguoi-wrap" hidden>
+          <label for="so-nguoi-out" id="so-nguoi-label">Tổng số người đến</label>
+          <div class="stepper" role="group" aria-labelledby="so-nguoi-label">
+            <button type="button" id="minus" aria-label="Giảm 1 người">−</button>
+            <output id="so-nguoi-out" for="minus plus" aria-live="polite">1</output>
+            <button type="button" id="plus" aria-label="Tăng 1 người">+</button>
+          </div>
+          <span class="stepper-note">Tính cả bạn nha.</span>
+        </div>
+
+        <div class="field">
+          <label for="loi-chuc">Lời chúc gửi Thế Trường <span class="opt">(không bắt buộc)</span></label>
+          <textarea class="textarea" id="loi-chuc" name="loichuc" maxlength="400" placeholder="Viết vài dòng để mình đọc lại sau này nha..."></textarea>
+          <span class="count" id="count" aria-hidden="true">0/400</span>
+        </div>
+
+        <div class="hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+
+        <p class="err" id="err" role="alert"></p>
+        <button class="go" id="go" type="submit">GỬI NGAY</button>
+        <p class="fine">Thông tin chỉ gửi riêng đến Thế Trường.</p>
+      </form>
+
+      <div class="done" id="done" role="status" aria-live="polite" tabindex="-1">
+        <div class="coin" aria-hidden="true"></div>
+        <div class="up" aria-hidden="true">+1 UP!</div>
+        <p id="done-msg"></p>
+        <p class="demo" id="demo" hidden>(Chế độ thử: câu trả lời này chưa được lưu lại.)</p>
+        <button class="again" id="again" type="button">Gửi thêm lời chúc</button>
+      </div>
+    </div>
+
+    <img class="scene" src="images/07-footer.webp" width="1429" height="550" alt="" loading="lazy">
+  </section>
+
+</main>
+
+<a class="fab" id="fab" href="#rsvp">Xác nhận tham dự</a>
+
+<script>
+/* ============================================================
+   CẤU HÌNH – dán link Google Apps Script (Web app) vào đây.
+   Để trống = chế độ thử (form chạy nhưng KHÔNG lưu dữ liệu).
+   Cách lấy link: xem file HUONG-DAN.md
+   ============================================================ */
+const SCRIPT_URL = "";
+
+(function () {
+  "use strict";
+  const $ = (s, r) => (r || document).querySelector(s);
+
+  /* --- Tiêu đề kiểu Mario: tách chữ, tô màu xen kẽ --- */
+  (function buildTitle() {
+    const h = $(".mario-title");
+    const lines = h.dataset.lines.split("|");
+    const label = h.textContent;
+    h.setAttribute("aria-label", label);
+    h.textContent = "";
+    let k = 0;
+    lines.forEach(function (line) {
+      const row = document.createElement("span");
+      row.className = "row";
+      row.setAttribute("aria-hidden", "true");
+      Array.from(line).forEach(function (c) {
+        const s = document.createElement("span");
+        if (c === " ") { s.className = "ch sp"; }
+        else { s.className = "ch k" + (k++ % 4); s.textContent = c; }
+        row.appendChild(s);
+      });
+      h.appendChild(row);
+    });
+  })();
+
+  /* --- Điền sẵn tên nếu link có ?ten=... --- */
+  const params = new URLSearchParams(location.search);
+  const refName = (params.get("ten") || "").trim().slice(0, 60);
+  const form = $("#rsvp-form"), ten = $("#ten");
+  if (refName) ten.value = refName;
+
+  /* --- Số người --- */
+  let count = 1;
+  const out = $("#so-nguoi-out"), wrap = $("#so-nguoi-wrap");
+  function setCount(n) {
+    count = Math.max(1, Math.min(10, n));
+    out.textContent = count;
+  }
+  $("#minus").addEventListener("click", function () { setCount(count - 1); });
+  $("#plus").addEventListener("click", function () { setCount(count + 1); });
+  form.addEventListener("change", function (e) {
+    if (e.target.name === "tt") wrap.hidden = e.target.value === "khong";
+  });
+
+  /* --- Đếm ký tự lời chúc --- */
+  const msg = $("#loi-chuc"), counter = $("#count");
+  msg.addEventListener("input", function () { counter.textContent = msg.value.length + "/400"; });
+
+  /* --- Gửi --- */
+  const err = $("#err"), go = $("#go"), dialog = $("#dialog");
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    err.textContent = "";
+    const name = ten.value.trim();
+    const tt = (form.querySelector('input[name="tt"]:checked') || {}).value;
+    if (!name) { err.textContent = "Bạn nhớ điền tên để mình biết là ai nha."; ten.focus(); return; }
+    if (!tt) { err.textContent = "Bạn chọn giúp mình một ô “có đến được không” nha."; form.querySelector('input[name="tt"]').focus(); return; }
+
+    // ô ẩn dành cho bot: nếu bị điền thì giả vờ thành công, không gửi
+    if (form.elements.website.value) { showDone(name, tt, false); return; }
+
+    const payload = {
+      ten: name,
+      trangthai: tt,
+      songuoi: tt === "khong" ? 0 : count,
+      loichuc: msg.value.trim(),
+      ref: refName,
+      thoigian: new Date().toISOString()
+    };
+
+    go.disabled = true; go.textContent = "ĐANG GỬI...";
+    try {
+      if (SCRIPT_URL) {
+        await fetch(SCRIPT_URL, {
+          method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "text/plain;charset=utf-8" },
+          body: JSON.stringify(payload)
+        });
+        showDone(name, tt, false);
+      } else {
+        console.info("[Chế độ thử] Dữ liệu sẽ gửi:", payload);
+        showDone(name, tt, true);
+      }
+    } catch (ex) {
+      err.textContent = "Chưa gửi được, bạn kiểm tra mạng rồi bấm gửi lại nha.";
+    } finally {
+      go.disabled = false; go.textContent = "GỬI NGAY";
+    }
+  });
+
+  function showDone(name, tt, demo) {
+    const text = {
+      "co": "Cảm ơn " + name + "! Hẹn gặp bạn ngày 21.11 nha.",
+      "chua-chac": "Cảm ơn " + name + "! Nếu đi được, bạn nhắn mình sớm nha.",
+      "khong": "Cảm ơn " + name + " đã báo mình. Lời chúc của bạn mình đã nhận rồi!"
+    }[tt];
+    $("#done-msg").textContent = text;
+    $("#demo").hidden = !demo;
+    dialog.classList.add("sent");
+    $("#done").focus({ preventScroll: true });
+    dialog.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+  $("#again").addEventListener("click", function () {
+    msg.value = ""; counter.textContent = "0/400";
+    dialog.classList.remove("sent");
+    msg.focus();
+  });
+
+  /* --- Nút nổi "Xác nhận tham dự": hiện sau khi lướt qua cover, ẩn khi tới form --- */
+  const fab = $("#fab"), rsvp = $("#rsvp");
+  let rsvpInView = false, ticking = false;
+  function updateFab() {
+    ticking = false;
+    const pastCover = window.scrollY > window.innerHeight * 0.7;
+    fab.classList.toggle("show", pastCover && !rsvpInView);
+  }
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(function (en) {
+      rsvpInView = en[0].isIntersecting; updateFab();
+    }, { threshold: 0.12 }).observe(rsvp);
+  }
+  window.addEventListener("scroll", function () {
+    if (!ticking) { ticking = true; requestAnimationFrame(updateFab); }
+  }, { passive: true });
+  updateFab();
+})();
+</script>
+</body>
+</html>
